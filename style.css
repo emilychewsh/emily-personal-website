@@ -1,3 +1,18 @@
 body{
-    background: rgb(228, 173, 200);
+    background-color: rgb(197, 151, 173);
+}
+
+
+/* Tables */
+table, thead, tbody, td {
+    border: 1px solid;
+    color: black; 
+}
+
+.tick {
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    color: green;
+
 }
