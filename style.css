@@ -1,6 +1,38 @@
-body{
-    background-color: rgb(197, 151, 173);
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
+
+body{
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    width: 90%;
+
+}
+
+
+/* Nav bar */
+#nav-bar {
+    padding: 20px;
+    background-color: lightgrey;
+    text-align: center;
+}
+.nav-overview li {
+    padding: 10px;
+    display: inline;
+}
+
+.nav-overview a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+
+/* Header Section */
 
 
 /* Tables */
