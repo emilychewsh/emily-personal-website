@@ -6,7 +6,7 @@ body{
 
 /* All section Styling */
 #experience, #schedule, #contact {
-    margin: 20px 200px 20px 200px;
+    margin: 30px 200px 50px 200px;
     background: rgb(230, 243, 255);
     border-radius: 8px;
     border: 2px solid  rgba(255, 231, 231, 0.856);
@@ -89,16 +89,39 @@ h4 {
 }
 
 /* Tables */
+table {
+    margin: auto;
+    margin-bottom: 30px;
+}
 
 table, thead, tbody, td {
+    padding: 40px;
     border: 1px solid;
     color: black; 
 }
 
+thead {
+    text-align: center;
+    font-size: large;
+    background: white;
+    text-shadow: 1px 1px 1px rgb(223, 137, 137);
+}
+
+tbody tr:nth-child(odd) {
+    background: rgba(255, 231, 231, 0.856);
+}
+
+tbody tr:nth-child(even) {
+    background: rgba(241, 230, 230, 0.856);
+}
+
+tbody tr td:first-child{
+    font-weight: bold;
+}
+
 .tick {
     text-align: center;
-    font-size: 100%;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: bolder;
     color: green;
-
 }
