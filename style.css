@@ -14,7 +14,6 @@ body{
 
 div.wrapper {
     margin: auto;
-    padding: 20px;
     width: 80%;
 }
 
@@ -27,6 +26,7 @@ h1 {
 
 h2 {
     font-weight: bold;
+    padding: 10px 0;
 }
 
 h3 {
@@ -77,6 +77,16 @@ h4 {
     border-radius: 100px;
 }
 
+/* Experience Section */
+#experience .wrapper {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    margin-top: 60px;
+    margin-left: -160px;
+}
 
 /* Tables */
 
