@@ -5,7 +5,7 @@ body{
 }
 
 /* All section Styling */
-#experience, #schedule, #contact {
+#experience, #schedule {
     margin: 30px 200px 50px 200px;
     background: rgb(230, 243, 255);
     border-radius: 8px;
@@ -125,3 +125,34 @@ tbody tr td:first-child{
     font-weight: bolder;
     color: green;
 }
+
+
+/* Contact form */
+#contact {
+    background: linear-gradient(rgb(230, 243, 255), rgba(255, 231, 231, 0.856) 40.8%);
+    border-top: 8px;
+    border: 2px solid  rgba(255, 231, 231, 0.856)
+}
+
+.contact-container {
+    margin: 30px 200px 50px 200px;
+    background: white;
+    border-radius: 8px;
+    border: 2px solid  rgba(255, 231, 231, 0.856);
+}
+
+form, #fname, #lname, #email, #message {
+    margin: 10px;
+    text-align: center;
+}
+
+div.contact-container > h2 {
+    text-align: center;
+}
+
+h3.find-me {
+    font-style: italic;
+}
+
+/* 
+linear-gradient(rgba(255, 231, 231, 0.856) 40.8%, rgba(93, 171, 223, 0.79)); */
