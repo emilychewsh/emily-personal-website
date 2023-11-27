@@ -4,11 +4,37 @@ body{
     font-family: Nunito;
 }
 
+/* All section Styling */
+#experience, #schedule, #contact {
+    margin: 20px 200px 20px 200px;
+    background: rgb(230, 243, 255);
+    border-radius: 8px;
+    border: 2px solid  rgba(255, 231, 231, 0.856);
+}
 
 div.wrapper {
     margin: auto;
     padding: 20px;
     width: 80%;
+}
+
+/* Font styling */
+h1 {
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    padding: 10px 0 10px 0;
+}
+
+h4 {
+    padding: 10px 0 0 0;
 }
 
 /* Nav bar */
@@ -27,8 +53,17 @@ div.wrapper {
     text-decoration: none;
 }
 
+.nav-overview a:hover {
+    background: rgba(255, 231, 231, 0.856);
+}
 
-/* Header Section */
+.nav-overview a:active {
+    background: rgba(93, 171, 223, 0.79);
+    color: white;
+}
+
+
+/* Header/About Me Section */
 #header {
     margin: 0 200px 0 200px;
     background: linear-gradient(rgba(255, 231, 231, 0.856) 40.8%, rgba(93, 171, 223, 0.79));
@@ -42,7 +77,9 @@ div.wrapper {
     border-radius: 100px;
 }
 
+
 /* Tables */
+
 table, thead, tbody, td {
     border: 1px solid;
     color: black; 
