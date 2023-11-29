@@ -71,6 +71,11 @@ p {
     color: white;
 }
 
+img.empagelogo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
 
 /* Header/About Me Section */
 #header {
