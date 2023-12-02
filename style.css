@@ -42,6 +42,10 @@ h6 {
     line-height: 25px;
 }
 
+h5 {
+    font-weight: bold;
+}
+
 p {
     line-height: 25px;
 }
@@ -92,15 +96,16 @@ img.empagelogo {
 }
 
 /* Experience Section */
-#experience .wrapper {
-    display: flex;
+#experience .flex-child {
+    float: left;
+    width: 33.33%;
 }
 
-.flex-child {
-    flex: 1;
-    margin-top: 60px;
-    margin-left: -160px;
-}
+#experience .wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 /* Tables */
 table {
