@@ -166,20 +166,40 @@ tbody tr td:first-child{
     text-align: center;
 } */
 
-div.form-container {
+/* div.form-container {
     display: block;
     text-align: center;
-}
+} */
 
-.form1 {
-    display: inline-block; 
+/* .form1 { */
+
+    /* display: inline-block; 
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
+    text-align: left; */
+/* } */
+
+/* #fname, #lname, #email, #message {
+    margin: 10px;
+} */
+
+.form1 {
+    margin: 0 auto;
+    width: 300px;
 }
 
-#fname, #lname, #email, #message {
-    margin: 10px;
+.form1 label{
+    display: inline-block;
+    text-align: right;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.form1 input{
+    display: inline-block;
+    text-align: left;
+    float: right;
+    margin-bottom: 30px;
 }
 
 div.contact-container > h2 {
