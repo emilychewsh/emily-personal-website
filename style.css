@@ -108,7 +108,7 @@ table {
     margin-bottom: 30px;
 }
 
-table, thead, tbody, td {
+table, th, tbody, td {
     padding: 40px;
     border: 1px solid;
     color: black; 
@@ -133,11 +133,10 @@ tbody tr td:first-child{
     font-weight: bold;
 }
 
-.tick {
+.td-container {
     text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
-    color: green;
+    font-weight: bold;
+    font-style: italic;
 }
 
 
