@@ -1,11 +1,10 @@
-
 body{
     background-color: white;
     font-family: Nunito;
 }
 
 /* All section Styling */
-#experience, #schedule {
+#experience, #schedule, #gallery {
     margin: 30px 200px 50px 200px;
     background: rgb(230, 243, 255);
     border-radius: 8px;
@@ -144,6 +143,18 @@ tbody tr td:first-child{
     font-style: italic;
 }
 
+/* Gallery Section */
+#gallery img {
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+#gallery .wrapper::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 /* Contact form */
 #contact {
