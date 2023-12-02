@@ -160,29 +160,6 @@ tbody tr td:first-child{
     border: 2px solid  rgba(255, 231, 231, 0.856);
 }
 
-/* form, #fname, #lname, #email, #message {
-    display: block;
-    margin: 10px;
-    text-align: center;
-} */
-
-/* div.form-container {
-    display: block;
-    text-align: center;
-} */
-
-/* .form1 { */
-
-    /* display: inline-block; 
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left; */
-/* } */
-
-/* #fname, #lname, #email, #message {
-    margin: 10px;
-} */
-
 .form1 {
     margin: 0 auto;
     width: 300px;
