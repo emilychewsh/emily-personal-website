@@ -182,15 +182,23 @@ div.contact-container > h2 {
     padding: 10px 0 40px 0;
 }
 
+/* Footer section */
+footer {
+    background: white;
+}
+
 h3.find-me {
     font-style: italic;
+    font-size: large;
+    font-weight: bold;
 }
 
 [alt~="githublogo"], [alt~="linkedinlogo"], [alt~="xlogo"] {
     margin-right: 15px;
     margin-bottom: 30px;
+    width: 25px;
+    height: auto;
 }
-
 
 /* 
 linear-gradient(rgba(255, 231, 231, 0.856) 40.8%, rgba(93, 171, 223, 0.79)); */
