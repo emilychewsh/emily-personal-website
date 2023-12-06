@@ -143,6 +143,10 @@ tbody tr td:first-child{
     font-style: italic;
 }
 
+#schedule .wrapper {
+    overflow: auto;
+}
+
 /* Gallery Section */
 #gallery img {
     width: 30%;
