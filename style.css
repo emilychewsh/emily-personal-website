@@ -18,14 +18,14 @@ div.wrapper {
 
 /* Font styling */
 h1 {
-    padding: 10px 0 10px 0;
+    padding: 40px 0 10px 0;
     font-weight: bold;
     font-style: italic;
 }
 
 h2 {
     font-weight: bold;
-    padding: 10px 0;
+    padding: 40px 0 10px 0;
 }
 
 h3 {
@@ -145,15 +145,18 @@ tbody tr td:first-child{
 
 /* Gallery Section */
 #gallery img {
-    float: left;
     width: 30%;
     padding: 20px;
 }
 
-#gallery .wrapper::after {
+/* #gallery .wrapper::after {
     content: "";
     clear: both;
     display: table;
+} */
+
+#gallery .img-fix {
+    margin: 0 auto;
 }
 
 /* Contact form */
@@ -183,11 +186,16 @@ tbody tr td:first-child{
     margin-bottom: 30px;
 }
 
-.form1 input{
+.form1 input, .form1 textarea{
     display: inline-block;
     text-align: left;
     float: right;
     margin-bottom: 30px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
 }
 
 div.contact-container > h2 {
